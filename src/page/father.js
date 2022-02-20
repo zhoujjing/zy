@@ -7,7 +7,7 @@ export default class Father extends Component {
     render() {
         return (
             <div>
-                我是父组件的内容2
+                我是父组件的内容3
                 {
                     <Son send={this.state.names} SonSend={(data)=>{console.log(data);}}></Son>
                 }
