@@ -4,7 +4,7 @@ export default class Son extends Component {
     render() {
         return (
             <div>
-                子组件内容
+                子组件内容2
                 {
                     this.props.send
                 }
